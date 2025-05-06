@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const query = document.getElementById('searchInput').value.trim();
         if (!query) return;
 
-        window.location.href = `/../../pages/search.html?query=${query}`;
+        window.location.href = `/../../CryptoX/pages/search.html?query=${query}`;
     });
 
     const openMenuBtn = document.getElementById('openMenu');
