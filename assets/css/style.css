@@ -1029,3 +1029,18 @@ footer .social-icons a i,
     }
 
 }
+
+.about-container h4 {
+    color: #000;
+    font-weight: bold;
+}
+
+.about-container p {
+    color: #333;
+}
+
+/* Dark theme overrides */
+body.dark-theme .about-container h4,
+body.dark-theme .about-container p {
+    color: white;
+}
