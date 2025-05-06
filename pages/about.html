@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>CryptoX</title>
+</head>
+
+<body>
+
+    <div class="overlay">
+        <button id="closeMenu"><i class="ri-close-circle-line"></i></button>
+
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/pages/charts.html">Charts</a>
+            <a href="/pages/search.html">Search</a>
+            <a href="/pages/about.html" class="active">About US</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://Youtube.com/AsmrProg"><i class="ri-youtube-line"></i></a>
+            <a href="https://t.me/AsmrProg_Admin"><i class="ri-telegram-line"></i></a>
+            <a href="https://Github.com/AsmrProg-YT"><i class="ri-github-line"></i></a>
+            <a href="#Soon"><i class="ri-discord-line"></i></a>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div class="global">
+            <p>Coins: <b id="coins-count">N/A</b></p>
+            <p>Exchanges: <b id="exchanges-count">N/A</b></p>
+            <p>Market Cap: <span><b id="marketCap">N/A</b> <span id="marketCapChange">N/A <i
+                            class="ri-arrow-down-s-fill"></i></span></span></p>
+            <p>24H Vol: <b id="volume">N/A</b></p>
+            <p>Dominance: <b id="dominance">BTC N/A% - ETH N/A%</b></p>
+        </div>
+
+        <nav>
+            <div class="left-section">
+                <button id="openMenu"><i class="ri-menu-line"></i></button>
+                <a href="#" class="logo">CryptoX</a>
+                <div class="nav-links">
+                    <a href="/index.html">Home</a>
+                    <a href="/pages/charts.html">Charts</a>
+                    <a href="/pages/search.html">Search</a>
+                    <a href="/pages/about.html" class="active">About US</a>
+                </div>
+            </div>
+            <div class="right-section">
+                <form class="search" id="searchForm">
+                    <i class="ri-search-line"></i>
+                    <input type="text" id="searchInput" placeholder="Search for an asset..." required
+                        autocomplete="off">
+                </form>
+                <i id="theme-toggle" class="ri-sun-line"></i>
+            </div>
+        </nav>
+
+        <div class="about-container">
+            <div class="info">
+                <h4>About Us</h3>
+                <p>
+                    Welcome to CryptoX, your one-stop marketplace for all things cryptocurrency. At CryptoX, we aim to revolutionize the way people trade, manage, and interact with digital assets by offering a secure, seamless, and user-centric platform.
+                    <br>
+                    <h4>Our Vision</h3>
+                        In a world where digital currencies are shaping the future of finance, our vision is to empower individuals by making cryptocurrency trading accessible, transparent, and efficient. We believe that everyone should have the opportunity to explore, invest, and grow in the crypto space with confidence.
+                    <h4>What We Offer</h4>
+                    - Real-Time Market Insights: Stay ahead with live price updates, market trends, and in-depth analytics. 
+                    <br>
+                    - Secure Trading Environment: Your safety is our priority. With advanced encryption, wallet integration, and two-factor authentication, we ensure your data and assets are secure.
+                    <br>
+                    - User-Friendly Interface: Trade effortlessly with a sleek, responsive design optimized for both web and mobile users.
+                    <br>
+                    - Portfolio Management: Track your crypto holdings, monitor profit/loss, and manage buy/sell orders on an intuitive trading dashboard.
+                    </p>
+                <div class="buttons">
+                    <button>Learn More</button>
+                    <button>Contact US</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/../assets/images/about.jpg" alt="about">
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>CryptoX</p>
+        <div class="social-icons">
+            <a href="https://github.com/keshavbhrdwaj7/CryptoX"><i class="ri-github-line"></i></a>
+        </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollTop"><i class="ri-arrow-up-s-line"></i></button>
+
+
+    <script src="../assets/js/global.js"></script>
+</body>
+
+</html>
