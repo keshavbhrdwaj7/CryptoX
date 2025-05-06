@@ -1,21 +1,35 @@
-# Fullstack Crypto Marketplace
+# 🔗 Cyptox — Crypto Marketplace Screener with Real-Time Insights
 
-Features:
+Cyptox is a crypto marketplace interface designed as a powerful real-time screener, giving users fast, reliable insights into coins, NFTs, and exchanges — all without requiring an account or wallet. From trending assets to detailed analytics, Cyptox brings the pulse of the market to your screen with a clean, responsive UI.
 
-- Live Data Fetching: Get real-time updates with free and fixed limits 📈
-- Theme Options: Toggle between Dark and Light themes 🌑🌞
-- Trending Coins & NFTs: Stay up-to-date with the hottest assets 🚀
-- Top Coins Overview: See key coins with a sparkline chart 📊
-- Top Exchanges: Explore comprehensive info about leading exchanges 🏦
-- Top Categories: Navigate through various categories easily 🗂️
-- BTC Holder Companies: Discover companies holding Bitcoin 🏢
-- Detailed Coin Info: Click on any coin to view full details 🔎
-- Search Functionality: Find coins, exchanges, and NFTs quickly 🔍
-- TradingView Integration: Enjoy live charts, tickers, and historical data 📅
-- Full Responsiveness: Works seamlessly on any device 📱💻, with a menu for smaller screens 📲
+# 🚀 Features
+📈 Live Data Fetching: Real-time market data with API rate limits.
+
+🌑🌞 **Theme Options:** Toggle between Dark and Light themes.
+
+🔥 **Trending Coins & NFTs:** Track the most popular assets in real-time.
+
+📊 **Top Coins Overview**: Sparkline charts for a quick glance at major coins.
+
+🏦 **Top Exchanges:** Get detailed stats on leading crypto exchanges.
+
+🗂️ **Top Categories:** Easily browse cryptocurrencies by category.
+
+🏢 **BTC Holder Companies:** See which companies hold Bitcoin.
+
+🔎 **Detailed Coin Info:** Click into any asset for full analytics.
+
+🔍 **Search Functionality:** Quickly find any coin, NFT, or exchange.
+
+📅 **TradingView Integration:** Access live charts, tickers, and history.
+
+📱 **Fully Responsive:** Works smoothly across all screen sizes.
+
+# 💡 Why Cyptox?
+Unlike traditional marketplaces, Cyptox focuses on data-first usability — offering a screener-like experience where users can explore the market without logging in or managing a wallet. It's the perfect tool for discovery, research, and staying updated on the crypto landscape.
 
 
-Here we have project screenshot :
+# Here we have project screenshots:
 
 ### Main Page
 
